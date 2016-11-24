@@ -1,0 +1,6 @@
+c:\users\bruger\documents\visual studio 2015\Projects\Matematik Perspektiv Projekt\Matematik Perspektiv Projekt\bin\Debug\Matematik Perspektiv Projekt.exe.config
+c:\users\bruger\documents\visual studio 2015\Projects\Matematik Perspektiv Projekt\Matematik Perspektiv Projekt\bin\Debug\Matematik Perspektiv Projekt.exe
+c:\users\bruger\documents\visual studio 2015\Projects\Matematik Perspektiv Projekt\Matematik Perspektiv Projekt\bin\Debug\Matematik Perspektiv Projekt.pdb
+c:\users\bruger\documents\visual studio 2015\Projects\Matematik Perspektiv Projekt\Matematik Perspektiv Projekt\obj\Debug\Matematik Perspektiv Projekt.csprojResolveAssemblyReference.cache
+c:\users\bruger\documents\visual studio 2015\Projects\Matematik Perspektiv Projekt\Matematik Perspektiv Projekt\obj\Debug\Matematik Perspektiv Projekt.exe
+c:\users\bruger\documents\visual studio 2015\Projects\Matematik Perspektiv Projekt\Matematik Perspektiv Projekt\obj\Debug\Matematik Perspektiv Projekt.pdb
