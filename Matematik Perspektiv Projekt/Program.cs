@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 using System.Globalization;
+using System.Windows.Forms;
+
 
 namespace Matematik_Perspektiv_Projekt
 {
@@ -15,8 +17,10 @@ namespace Matematik_Perspektiv_Projekt
         private static Vector View;
         private static FileStream fs;
         private static List<Vector> points = new List<Vector>();
+        [STAThread]
         static void Main(string[] args)
         {
+            Console.WriteLine("Hinge er konge");
             dataDirectory = AppDomain.CurrentDomain.BaseDirectory;
             Data = dataDirectory + "//Punkter.txt";
             View = null;
@@ -25,11 +29,16 @@ namespace Matematik_Perspektiv_Projekt
             //Tilføj alle points
 
             //Slut
+            string s = "";
             foreach (Vector vect in points)
             {
                 Console.WriteLine(get_z_intersection(View, vect).print());
-            }
+                s += System.Environment.NewLine + get_z_intersection(View, vect).print();
+                
 
+            }
+            Clipboard.SetText(s);
+            Console.WriteLine("Kopieret til klipboard");
             Console.ReadLine();
         }
         private static Vector get_z_intersection(Vector origin, Vector vect)
